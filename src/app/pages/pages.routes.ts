@@ -10,6 +10,9 @@ import { RxjsComponent } from './rxjs/rxjs.component';
 import { PagesComponent } from './pages.component';
 import { LoginGuardGuard } from '../services/service.index';
 
+import { UsuariosComponent } from './usuarios/usuarios.component';
+
+
 const pagesRoutes: Routes = [
 	{ 
 			path: '', 
@@ -23,6 +26,11 @@ const pagesRoutes: Routes = [
 				{ path: 'rxjs', component: RxjsComponent, data:{titulo:'Observables'} },
 				{ path: 'accout-settings', component: AccoutSettingsComponent, data:{titulo:'Temas'} },
 				{ path: 'perfil', component: ProfileComponent, data:{titulo:'Perfil de Usuario'} },
+				
+				// Mantenimiento
+				{ path: 'usuarios', component: UsuariosComponent, data:{titulo:'Mantenimiento de Usuarios'} },
+				{ path: 'usuarios', component: UsuariosComponent, data:{titulo:'Mantenimiento de Usuarios'} },
+				{ path: 'usuarios', component: UsuariosComponent, data:{titulo:'Mantenimiento de Usuarios'} },
 				{ path: '', redirectTo: '/dashboard', pathMatch: 'full' }
 			]
 	} 

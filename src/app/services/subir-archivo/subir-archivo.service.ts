@@ -12,7 +12,7 @@ export class SubirArchivoService {
 
 	  	let formData = new FormData();
 	  	let xhr =  new XMLHttpRequest();
-	  	console.log("archivo:", archivo, "archivo.name:", archivo.name)
+	  	console.log("archivo:", archivo, "archivo.name:", archivo.name, "tipo:", tipo, "id:", id)
 	  	formData.append('imagen', archivo, archivo.name);
 
 	  	xhr.onreadystatechange = function(){

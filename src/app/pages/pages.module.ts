@@ -11,7 +11,7 @@ import { Graficas1Component } from './graficas1/graficas1.component';
 import { SharedModule } from '../shared/shared.module';
 import { PAGES_ROUTES } from './pages.routes'
 import { GraficaDonaComponent } from '../components/grafica-dona/grafica-dona.component';
-
+import { ModalUploadComponent } from '../components/modal-upload/modal-upload.component'; 
 //tmp
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component'
 
@@ -25,6 +25,9 @@ import { RxjsComponent } from './rxjs/rxjs.component';
 import { PipesModule } from '../pipes/pipes.module';
 import { ProfileComponent } from './profile/profile.component';
 
+// Mantenimiento
+import { UsuariosComponent } from './usuarios/usuarios.component';
+
 @NgModule({
 	declarations:[
 		PagesComponent,
@@ -36,7 +39,9 @@ import { ProfileComponent } from './profile/profile.component';
 	    AccoutSettingsComponent,
 	    PromesasComponent,
 	    RxjsComponent,
-	    ProfileComponent
+	    ProfileComponent,
+	    UsuariosComponent,
+	    ModalUploadComponent
 	    
 	],
 	exports: [	// exportar los modulos en caso de ocuparse en otros componentes
