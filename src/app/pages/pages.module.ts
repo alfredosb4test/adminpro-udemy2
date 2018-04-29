@@ -27,6 +27,9 @@ import { ProfileComponent } from './profile/profile.component';
 
 // Mantenimiento
 import { UsuariosComponent } from './usuarios/usuarios.component';
+import { HospitalesComponent } from './hospitales/hospitales.component';
+import { MedicosComponent } from './medicos/medicos.component';
+import { MedicoComponent } from './medicos/medico.component';
 
 @NgModule({
 	declarations:[
@@ -41,7 +44,10 @@ import { UsuariosComponent } from './usuarios/usuarios.component';
 	    RxjsComponent,
 	    ProfileComponent,
 	    UsuariosComponent,
-	    ModalUploadComponent
+	    ModalUploadComponent,
+	    HospitalesComponent,
+	    MedicosComponent,
+	    MedicoComponent
 	    
 	],
 	exports: [	// exportar los modulos en caso de ocuparse en otros componentes
